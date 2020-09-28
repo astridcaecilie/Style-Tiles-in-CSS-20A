@@ -135,32 +135,33 @@ ul li:last-child {
 .textures li {
     height: 30vw;
     width: 40%;
-/*    margin-right: 5vw;*/
 }
 
-/*
+.textures {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+}
+.section-heading {
+    grid-column: 1/-1;
+}
+
 .texture-swatch-1 {
-    background: url(../img/groen-plante.png) top left repeat;
-    max-width: 100%;
+    /*    background: url(../img/groen-plante.png) top left repeat;*/
+
 }
 
 .texture-swatch-2 {
-    background: url(../img/lyseroed-plante.png) top left repeat;
-    min-width: 100%;
+    /*    background: url(../img/lyseroed-plante.png) top left repeat;*/
+
 
 }
-*/
 
 .texture-swatch-3 {
-/*    background: url(../img/flere-planter.png);*/
-    height: 300px;
-}
+    /*    background: url(../img/flere-planter.png);*/
 
-/*
-.texture-swatch-3 {
-    background: url(../img/white_paperboard.png) top left repeat;
 }
-*/
 
 .images ul {
     flex-direction: column;
@@ -248,8 +249,8 @@ a {
 
 a:hover {
     color: var(--bg-color);
-/*    background-color: var(--color-4);*/
-/*    opacity: 0.1;*/
+    /*    background-color: var(--color-4);*/
+    /*    opacity: 0.1;*/
     font-size: 1.2em;
 }
 
